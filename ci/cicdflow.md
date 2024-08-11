@@ -21,6 +21,7 @@ Frontend(Angular):
  
 
 Backend (spring boot microservices):
+
 CI flow:
 1.	Code Checkout
 2.	Build using below maven command
@@ -30,6 +31,7 @@ CI flow:
 
 3.	Quality Check using Sonarqube
 4.	Create package for project
+
 CD Flow:  Since we are going to ECS fargate for backend implementation
 1.	 Build App Image (Build Docker container image)
 2.	  Upload App Image (Push the docker image to AWS ECR/docker hub)
